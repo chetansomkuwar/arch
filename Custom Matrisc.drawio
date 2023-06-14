@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T06:23:36.396Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="MCNJconl_oOJSp9ZzFka" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T07:01:13.816Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="iBh7YjtweZir84NdVKU-" version="21.3.8" type="github">
   <diagram name="Page-1" id="tH6A9zRQEQZF8u2iKxFu">
-    <mxGraphModel dx="778" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,13 +23,13 @@
           <mxGeometry x="29.25" y="220" width="170.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-21" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/data/data_sources.svg;" vertex="1" parent="1">
-          <mxGeometry x="342.38" y="320" width="100" height="100" as="geometry" />
+          <mxGeometry x="340" y="319.75" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYZiqdjHJJGi1RUnnPEa-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Prometheus DS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-23" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Prometheus DS&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="365" y="430" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IYZiqdjHJJGi1RUnnPEa-30" value="Pull" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="310" width="30" height="20" as="geometry" />
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-30" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Pull the metrics&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370.13" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.015;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -42,6 +42,93 @@
             <mxPoint x="215" y="400" as="sourcePoint" />
             <mxPoint x="340" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-36" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="129.11" height="100.25" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.029;entryY=0.748;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="405.13" as="sourcePoint" />
+            <mxPoint x="475" y="355.13" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-39" value="Store" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="289.75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-40" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Pull Calculate &amp;amp; Visualize metrics&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="365.13" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-41" value="&lt;b&gt;Grafana Dashboard&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594.56" y="439.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-42" value="Promtheus collects the node level metrics from targert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-44" value="Node exporter is promtheus exporter for server level &amp;amp; OS level metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="490" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-45" value="Human redable visulization metrics shown" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="145.44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-46" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.workspaces;fillColor=#D16A28;gradientColor=#F58435;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1090" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-47" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;https://neuroshield.in-medprognostics.com/login&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="139.5" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-49" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.workspaces;fillColor=#D16A28;gradientColor=#F58435;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1090" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-50" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;User cases uploaded&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1200" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-51" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
+          <mxGeometry x="370" y="960" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-53" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="1340" width="75" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-54" value="&lt;a href=&quot;https://s3.console.aws.amazon.com/s3/buckets/neuroshield-cases?region=ap-south-1&quot; class=&quot;bucket-name&quot;&gt;neuroshield-cases&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.86" y="1020" as="sourcePoint" />
+            <mxPoint x="399.86" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.86" y="1220" as="sourcePoint" />
+            <mxPoint x="400" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-60" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;192 Dicom files = 1 Case&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1260" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-67" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1000" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-68" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-69" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1369" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-70" value="&lt;h1&gt;Server Level Monitoring&lt;/h1&gt;&lt;p&gt;Here we monitor the server level &amp;amp; os level targets like CPU, Memory &amp;amp; DIsk&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-0.6200000000000045" y="40" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-71" value="&lt;h1&gt;Application Level Monitoring&lt;/h1&gt;&lt;p&gt;Here, we are going to monitor, how many test cases are uploaded by consumer in defined timeframe.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16.88" y="870" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
