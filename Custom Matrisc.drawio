@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T07:02:29.690Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="e0GCL_CKS4FdfVy5BqJa" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T07:06:49.798Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="O4X6-umTyxYjvmihHh2Z" version="21.3.8" type="github">
   <diagram name="Page-1" id="tH6A9zRQEQZF8u2iKxFu">
     <mxGraphModel dx="1789" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-70" value="&lt;h1&gt;Server Level Monitoring&lt;/h1&gt;&lt;p&gt;Here we monitor the server level &amp;amp; os level targets like CPU, Memory &amp;amp; DIsk&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-0.6200000000000045" y="40" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IYZiqdjHJJGi1RUnnPEa-71" value="&lt;h1&gt;Application Level Monitoring&lt;/h1&gt;&lt;p&gt;Here, we are going to monitor, how many test cases are uploaded by consumer in defined timeframe.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IYZiqdjHJJGi1RUnnPEa-71" value="&lt;h1&gt;Application Level Monitoring&lt;/h1&gt;&lt;p&gt;Here, we are going to monitor, how many test cases are uploaded by consumer in defined timeframe.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="16.88" y="870" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
