@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T07:06:49.798Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="O4X6-umTyxYjvmihHh2Z" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T07:19:25.461Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BoHZzF1fCJ2lKWTNUdLO" version="21.3.8" type="github">
   <diagram name="Page-1" id="tH6A9zRQEQZF8u2iKxFu">
-    <mxGraphModel dx="1789" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="939" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-6" value="Staging EC2 instance&amp;nbsp;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="300" width="169.5" height="139.5" as="geometry" />
+          <mxGeometry x="60.620000000000005" y="260" width="169.5" height="139.5" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-8" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;" vertex="1" parent="IYZiqdjHJJGi1RUnnPEa-6">
           <mxGeometry x="-15" y="-30" width="199.5" height="199.5" as="geometry" />
@@ -20,106 +20,106 @@
           <mxGeometry x="30" y="-30" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-13" value="&lt;b&gt;https://neuroshield.in-medprognostics.com/login&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="29.25" y="220" width="170.25" height="30" as="geometry" />
+          <mxGeometry x="59.870000000000005" y="180" width="170.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-21" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/data/data_sources.svg;" vertex="1" parent="1">
-          <mxGeometry x="340" y="319.75" width="100" height="100" as="geometry" />
+          <mxGeometry x="370.62" y="279.75" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-23" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Prometheus DS&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="365" y="430" width="60" height="30" as="geometry" />
+          <mxGeometry x="395.62" y="390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-30" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Pull the metrics&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="370.13" width="90" height="20" as="geometry" />
+          <mxGeometry x="270.62" y="330.13" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.015;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="342.38" y="360" as="sourcePoint" />
-            <mxPoint x="312.38" y="360" as="targetPoint" />
+            <mxPoint x="373" y="320" as="sourcePoint" />
+            <mxPoint x="343" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.076;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="400" as="sourcePoint" />
-            <mxPoint x="340" y="400" as="targetPoint" />
+            <mxPoint x="245.62" y="360" as="sourcePoint" />
+            <mxPoint x="370.62" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-36" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" vertex="1" parent="1">
-          <mxGeometry x="560" y="330" width="129.11" height="100.25" as="geometry" />
+          <mxGeometry x="590.62" y="290" width="129.11" height="100.25" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.029;entryY=0.748;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="425" y="405.13" as="sourcePoint" />
-            <mxPoint x="475" y="355.13" as="targetPoint" />
+            <mxPoint x="455.62" y="365.13" as="sourcePoint" />
+            <mxPoint x="505.62" y="315.13" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="405" />
+              <mxPoint x="520.62" y="365" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="360" as="sourcePoint" />
-            <mxPoint x="440" y="360" as="targetPoint" />
+            <mxPoint x="590.62" y="320" as="sourcePoint" />
+            <mxPoint x="470.62" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-39" value="Store" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="365" y="289.75" width="50" height="30" as="geometry" />
+          <mxGeometry x="395.62" y="249.75" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-40" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Pull Calculate &amp;amp; Visualize metrics&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="365.13" width="100" height="30" as="geometry" />
+          <mxGeometry x="480.62" y="325.13" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-41" value="&lt;b&gt;Grafana Dashboard&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="594.56" y="439.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="625.18" y="399.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-42" value="Promtheus collects the node level metrics from targert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="490" width="170" height="30" as="geometry" />
+          <mxGeometry x="340.62" y="450" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-44" value="Node exporter is promtheus exporter for server level &amp;amp; OS level metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="490" width="220" height="30" as="geometry" />
+          <mxGeometry x="30.62" y="450" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-45" value="Human redable visulization metrics shown" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="490" width="145.44" height="30" as="geometry" />
+          <mxGeometry x="600.62" y="450" width="145.44" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-46" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.workspaces;fillColor=#D16A28;gradientColor=#F58435;gradientDirection=north;" vertex="1" parent="1">
-          <mxGeometry x="125" y="1090" width="110" height="110" as="geometry" />
+          <mxGeometry x="1320" y="160" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-47" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;https://neuroshield.in-medprognostics.com/login&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="139.5" y="1210" width="60" height="30" as="geometry" />
+          <mxGeometry x="1334.5" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-49" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.workspaces;fillColor=#D16A28;gradientColor=#F58435;gradientDirection=north;" vertex="1" parent="1">
-          <mxGeometry x="345" y="1090" width="110" height="110" as="geometry" />
+          <mxGeometry x="1510" y="130" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-50" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;User cases uploaded&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1200" width="115" height="30" as="geometry" />
+          <mxGeometry x="1515" y="240" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-51" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
-          <mxGeometry x="370" y="960" width="60" height="60" as="geometry" />
+          <mxGeometry x="1535" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-53" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="1">
-          <mxGeometry x="362.5" y="1340" width="75" height="78" as="geometry" />
+          <mxGeometry x="1527.5" y="380" width="75" height="78" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-54" value="&lt;a href=&quot;https://s3.console.aws.amazon.com/s3/buckets/neuroshield-cases?region=ap-south-1&quot; class=&quot;bucket-name&quot;&gt;neuroshield-cases&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1430" width="60" height="30" as="geometry" />
+          <mxGeometry x="1535" y="470" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="399.86" y="1020" as="sourcePoint" />
-            <mxPoint x="399.86" y="1070" as="targetPoint" />
+            <mxPoint x="1564.8600000000001" y="60" as="sourcePoint" />
+            <mxPoint x="1564.8600000000001" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IYZiqdjHJJGi1RUnnPEa-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="399.86" y="1220" as="sourcePoint" />
-            <mxPoint x="400" y="1290" as="targetPoint" />
+            <mxPoint x="1564.8600000000001" y="260" as="sourcePoint" />
+            <mxPoint x="1565" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-60" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;192 Dicom files = 1 Case&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="335" y="1260" width="145" height="30" as="geometry" />
+          <mxGeometry x="1500" y="300" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-70" value="&lt;h1&gt;Server Level Monitoring&lt;/h1&gt;&lt;p&gt;Here we monitor the server level &amp;amp; os level targets like CPU, Memory &amp;amp; DIsk&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-0.6200000000000045" y="40" width="230" height="120" as="geometry" />
+          <mxGeometry x="29.999999999999996" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IYZiqdjHJJGi1RUnnPEa-71" value="&lt;h1&gt;Application Level Monitoring&lt;/h1&gt;&lt;p&gt;Here, we are going to monitor, how many test cases are uploaded by consumer in defined timeframe.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="16.88" y="870" width="230" height="120" as="geometry" />
+          <mxGeometry x="1043" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
